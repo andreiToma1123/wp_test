@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.element,o=window.wp.blocks,t=window.wp.blockEditor;(0,o.registerBlockType)("course/firstblock",{edit:function(){const o=(0,t.useBlockProps)();return console.log("edit",o),(0,e.createElement)("p",o,"Edit JSX")},save:function(){const o=t.useBlockProps.save();return console.log("save",o),(0,e.createElement)("p",o,"Save JSX")}})})();
