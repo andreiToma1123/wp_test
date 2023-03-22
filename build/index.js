@@ -47,7 +47,7 @@ __webpack_require__.r(__webpack_exports__);
 
 (0,_wordpress_blocks__WEBPACK_IMPORTED_MODULE_0__.registerBlockType)('course/text-box', {
   icon: {
-    src: "text-page"
+    src: 'text-page',
     // <svg
     // 	version="1.1"
     // 	viewBox="0 0 500 500"
@@ -55,10 +55,8 @@ __webpack_require__.r(__webpack_exports__);
     // >
     // 	<circle cx="250" cy="250" r="200" />
     // </svg>
-    ,
-
-    background: "#f03",
-    foreground: "#fff"
+    background: '#f03',
+    foreground: '#fff'
   },
   edit: _edit__WEBPACK_IMPORTED_MODULE_2__["default"],
   save: _save__WEBPACK_IMPORTED_MODULE_3__["default"]
